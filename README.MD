@@ -2,6 +2,8 @@
 
 Takes temperature (ºC) from NTC resistor and displays in a 128x32 OLED
 
+![stm32 temp](https://user-images.githubusercontent.com/7416473/175761632-8c9ca590-8949-4b86-a8ce-be9631855acd.jpg)
+
 ### About this
 
 I make this project because is funny playing with Arduino. Nothing special, only back-up code
