@@ -1,16 +1,16 @@
-#arduino-display-temp
+# arduino-display-temp
 
 Takes temperature (ºC) from NTC resistor and displays in a 128x32 OLED
 
-###About this
+### About this
 
 I make this project because is funny playing with Arduino. Nothing special, only back-up code
 
-###Devices
+### Devices
 
 I only tested this on a STM32 blue pill board (yeah, a whole ARM 32-bit Cortex-M3 75MHz processor for this because is more cheap than an arduino nano)
 
-###Required components
+### Required components
 
 NTC thermistor (recommended 10k ohm), a resistor (recommended 10k ohm), thermistor datasheet->(IMPORTANT)<-
 
@@ -22,7 +22,7 @@ Wiring:
                   [A0]
 ```
 
-###Values
+### Values
 
 ```c++
 	float Vin = 3.3;     // [V in]
@@ -33,11 +33,11 @@ Wiring:
 	float Bta = 4050; // BETA VALUE [IN THERMISTOR DATASHEET, VERY IMPORTANT!!!!!]
 ```
 
-###Hardcoded takes[]
+### Hardcoded takes[]
 
 `takes[]` is hardcoded to 20 values, it's for average calculation (ntc may vary a lot every take) and makes this unreadable and unestable
 
-###Delet dis
+### Delet dis
 
 - I don't code in C or C++ I tried to do my best
 
